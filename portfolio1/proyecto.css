@@ -1,0 +1,178 @@
+body {
+  background-color:  rgb(251, 250, 255) ;
+	height : 100%;
+}
+
+.row{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    /* background-color: rgb(251, 250, 255); */
+    padding-bottom: 10px;
+    text-align: left;
+
+
+}
+
+.picture{
+  /* border-radius: 5px; */
+  max-width: 350px;
+  height: 190px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.content{
+  background-color:  rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: right;
+}
+
+.spacecontent, .spacecontent1, .spacecontent2, .spacecontent3 {
+  background-color: rgb(244, 245, 250);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.note-column {
+  background-color: rgb(207, 207, 214);
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin: 2px;
+  /* width: 24% !important; */
+}
+
+.button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(229, 235, 247);
+    font-weight:bold;
+    color: rgb(47, 96, 219);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 13.8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: rgb(188, 224, 235);;
+
+
+}
+
+.button1{
+    margin: 5px;
+    font-size:200px;
+}
+
+.formatnote{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: rgb(188, 224, 235);
+    border-radius: 5px;
+
+}
+
+.btnbtn-primary{
+    /* color: black; */
+    font-size: medium;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 10px;
+    border: rgb(188, 224, 235);;
+
+}
+
+#cancel{
+    background-color: red;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#yes{
+    background-color: green;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.modal-header{
+    background-color: blue;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:bolder;
+}
+
+#modal-modify{
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.modal-body{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#imageNote{
+  margin-top: 5px;
+}
+
+
+ /* ///////////////////////////////////////////////////////////////////// */
+
+ /* .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
